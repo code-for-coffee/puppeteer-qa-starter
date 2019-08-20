@@ -1,0 +1,20 @@
+{
+  "name": "puppeteer-qa-starter",
+  "version": "1.0.0",
+  "description": "Starter project for QA needs.",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.0",
+    "eslint-plugin-node": "^9.1.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "build": "tsc src/index.ts -lib ES2015",
+    "lint": "npx eslint **/**.js",
+    "start": "NODE_ENV=development node src/index.js"
+  }
+}
